@@ -1,0 +1,39 @@
+header{
+padding-left: 20;
+background-color: brown;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+body{
+    margin: 0%;
+    background-color: rgb(22, 101, 210);
+
+}
+#header-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.inline{
+    margin-right: 20px;
+    display: inline-block;
+
+}
+.containet{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box{
+    width: 25%;
+    height: 200px;
+    margin: 20px;
+    background-color:rgba(128, 128, 128, 0.43);
+}
+.para{
+    width: 25%;
+}

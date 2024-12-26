@@ -1,0 +1,14 @@
+.conatiner{
+margin: auto;
+margin-top: 70px;
+width: 50;
+height: 200px;
+display: flex;
+justify-content: space-evenly;
+}
+.box{
+    width: 10%;
+    height: 30%;
+    border: 1px solid black;
+    background-color: red;
+}
