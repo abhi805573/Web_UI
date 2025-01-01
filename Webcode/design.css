@@ -1,0 +1,353 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #043873;
+}
+.navbar{
+    position: sticky;top: 0; backdrop-filter: blur(4px);
+    background-color:#043873;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+img{
+    /* margin-left: 220px;16px */
+    padding:16px 22px 16px 220px ;
+}
+.content{
+    /* border: 2px solid #4f9cf9; */
+    /* margin-left: 260px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-right: -40%;
+   
+   
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15x;
+}
+li{
+   margin: 0px 20px;
+   padding: 10px;
+   list-style: none;
+   margin-left: 20px;
+   font-size: 22px;
+
+}
+a{
+    text-decoration: none;
+}
+.tabs{
+    padding-top: 16px;
+    padding-right: 220px;
+    padding-bottom: 16px;
+    padding-left: 220px;
+    gap: 30px;
+    font-size: 22px;
+}
+.Login{
+    background-color: #4f9cf9;
+    border: 1px solid #151718;
+    padding: 15px;;
+    border-radius: 6px;
+    
+}
+.Login2{
+    background-color: antiquewhite;
+    padding: 12px;
+    border-radius: 6px;
+}
+/* 1st page */
+.section1{
+    background-color: #043873;
+    height: 827px;
+    padding-top: 140px;
+    padding-right: 240px;
+    padding-bottom: 140px;
+    padding-left: 220px;
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+.box1{
+    width: 824px;
+    height: 549px;
+    background-color: #4f9cf9;
+}
+h2{
+    margin-top: 30px;
+    font-size: 70px;
+    font-weight: 700;
+}
+p{
+    margin-top: 45px;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* 2nd page */
+.section2{
+    background-color: white;
+    height: 827px;
+    padding-top: 150px;
+    padding-right: 248px;
+    padding-bottom: 140px;
+    padding-left: 186px;
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: rows;
+
+}
+.box2{
+    width: 748px;
+    height: 547px;
+    background-color:#4f9cf9; 
+} 
+/* thirdpag */
+.section3{
+    background-color:#043873;
+    height: 827px;
+    padding-top: 150px;
+    padding-right: 248px;
+    padding-bottom: 140px;
+    padding-left: 194px;
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+.box3{
+    width: 686px;
+    height: 479px;
+    background-color:#4f9cf9;  
+}
+/* fourth page */
+.four_page{
+    width: 100%;
+    height: 1272px;
+    background-color:white;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    
+    padding-top: 140px;
+    padding-left:250px ;
+    padding-right:250px ;
+    padding-bottom:140px ;
+    gap: 70px;
+}
+#four_page_head{
+    font-size:72px ;
+    font-weight: 700px;
+    text-align: center;
+}
+#txt-4{
+    justify-self: center;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: -10px;
+}
+.cards{
+    background-color:white;
+    /* align-self: center; */
+    margin-top: 32px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 40px;
+}
+.card1{
+    box-sizing: border-box;
+    width: 472.33px;
+    height: 634px;
+    padding:40px 44px;
+    background-color: whitesmoke;
+    border: 1px solid #FFE492;
+    border-radius: 10px;
+    align-self: center;
+}
+.card_head{
+    font-size: 24px;
+    font-weight: 600;
+}
+.price{
+    margin-top: 25px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.card-info{
+    font-size: 18px;
+    font-weight: 500px;
+    padding-bottom: 40px;
+}
+.card2{
+    box-sizing: border-box;
+    width: 472.33px;
+    height: 761px;
+    background-color: #043873;
+    padding: 80px 44px;
+    border-radius: 10px;
+    border: 1px solid #FFE492;
+}
+.card3{
+    box-sizing: border-box;
+    width: 472.33px;
+    height: 634px;
+    padding:40px 44px;
+    background-color: whitesmoke;
+    border: 1px solid #FFE492;
+    border-radius: 10px;
+    align-self: center;
+}
+.card-bullets{
+    /* background-color: green; */
+}
+.bullets{
+    margin-bottom: 28px;
+    display: flex;
+}
+.card_icons{
+    margin-right: 20px;
+}
+.card_btn{
+    background-color: #FFFFFF;
+    width: 166px;
+    height: 51px;
+    padding: 16px 40px;
+    border: 1px solid #FFE492;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* fifthpage */
+.sponsors{
+    width: 1922px;
+    height: 538px;
+    box-sizing: border-box;
+    padding-left: 242px;
+    padding-right: 121px;
+}
+#sponser_head{
+    margin-top: 20px;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.sponserd_company{
+    margin-top: 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+/* six page */
+.six_page{
+    width: 100%;
+    height: 994px;
+    background-color:white;
+    box-sizing: border-box;
+    padding-left: 240px;
+    padding-right: 250px;
+}
+#six_head{
+    padding-top: 32px;
+    padding-bottom: 50px;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+}
+.client_say_cards{
+    width: 1479px;
+    height: 498px;
+    background-color: white;
+    display: flex;
+    gap: 57px;
+}
+.say_card1,.say_card2,.say_card3{
+    width: 471px;
+    height: 498px;
+    background-color: #C4DEFD;
+    border-radius: 15px;
+    
+    box-sizing: border-box;
+    padding: 60px 40px;
+}
+#say-txt1{
+    margin-top: 10px;
+    width:391px;
+    height: 90px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.first_part{
+    border-bottom: 1px solid #212529;
+}
+.person_info{
+    box-sizing: border-box;
+    /* background-color: aqua; */
+    width: 246px;
+    height: 95px;
+}
+.second_part{
+    display: flex;
+    /* background-color: red; */
+    box-sizing: border-box;
+    margin-top: 60px;
+    gap: 42px;
+}
+#person_heading{
+    font-size: 24px;
+    font-weight: 700;
+}
+.person_img{
+    width: 95px;
+    height: 95px;
+}
+.Avtar{
+    padding: 16px 22px 12px 22px;
+}
+#person_txt{
+    width: 246px;
+    height: 40px;
+}
+
+
+/* footer */
+.right-footer{
+    background-color:red;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 1480px;
+    height: 225px;
+}
+
+.footer-logo{
+    display: flex;
+    padding: 10px 10px 10px 250px;
+
+}
+.footer-para{
+    padding: 10px 10px 10px 10px;
+}
+h3{
+    background-color: #FFE492;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+}
+.boxs{
+    border: 2px solid #acd70fd6;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+}
+.footer-tag{
+    
+}
